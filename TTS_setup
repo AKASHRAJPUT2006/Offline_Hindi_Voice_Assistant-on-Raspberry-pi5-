@@ -21,3 +21,5 @@ make -j$(nproc)
 sudo make install
 sudo ldconfig
 
+# It installs PipeWire, a modern audio system for Linux, along with tools that make it compatible with PulseAudio applications.
+sudo apt install -y pipewire pipewire-pulse wireplumber pulseaudio-utils
