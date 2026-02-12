@@ -1,0 +1,4 @@
+# this command runs/switch on the voice assistant
+
+source ~/voice_env/bin/activate
+python ~/main.py

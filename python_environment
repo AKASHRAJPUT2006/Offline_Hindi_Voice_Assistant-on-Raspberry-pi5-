@@ -1,0 +1,3 @@
+# This installs a complete Python environment and support for creating virtual environments.
+
+sudo apt install -y python3-full python3-venv

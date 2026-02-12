@@ -1,0 +1,11 @@
+# This command creates virtual environment.
+cd ~
+python3 -m venv voice_env
+
+
+# activate virtual environment
+source voice_env/bin/activate
+
+
+# Downloads and installs the Vosk speech recognition Python library. It installs Vosk from PyPI (Python Package Index) into  current Python environment.
+pip install vosk

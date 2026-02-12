@@ -1,0 +1,3 @@
+# This command updates and upgrades the system packages in Raspberry Pi OS.
+
+sudo apt update && sudo apt upgrade -y

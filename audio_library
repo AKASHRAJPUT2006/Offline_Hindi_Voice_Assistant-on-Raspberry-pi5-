@@ -1,0 +1,3 @@
+# This command installs audio libraries needed for microphone input in Python
+
+sudo apt install -y portaudio19-dev python3-pyaudio

@@ -1,0 +1,7 @@
+# This is for downloading and setting up the Vosk Hindi speech model.
+
+mkdir -p ~/vosk_models
+cd ~/vosk_models
+wget https://alphacephei.com/vosk/models/vosk-model-small-hi-0.22.zip
+unzip vosk-model-small-hi-0.22.zip
+

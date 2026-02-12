@@ -1,0 +1,23 @@
+# Download espeak-ng source as a tarball
+cd ~
+wget https://github.com/espeak-ng/espeak-ng/archive/refs/heads/master.tar.gz
+
+# Extract it:
+tar -xvf master.tar.gz
+
+# Build espeak-ng:
+
+sudo apt install -y cmake build-essential git
+# The above command installs development tools required to compile software and manage source code.
+
+cd espeak-ng-master
+rm -rf build
+mkdir build
+cd build
+cmake .. \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DUSE_SONIC=OFF
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+
