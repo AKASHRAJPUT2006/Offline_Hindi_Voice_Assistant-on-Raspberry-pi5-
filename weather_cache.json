@@ -1,0 +1,6 @@
+# Use JSON cache for weather instead of API
+{
+    "summary": "आज मौसम साफ है",
+    "temperature": 22,
+    "last_updated": "12-02-2026 10:30"
+}
