@@ -1,1 +1,0 @@
-# Offline_Hindi_Voice_Assistant-on-Raspberry-pi5-
